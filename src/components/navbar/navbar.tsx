@@ -4,7 +4,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-navbar">
             <div className="container">
-                <a className="navbar-brand" href="/">Jose Sanchez</a>
+                <a className="navbar-brand" href="/inicio">Jose Sanchez</a>
                 <div className="collapse navbar-collapse" id="navbar">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">

@@ -2,17 +2,16 @@ import React from 'react';
 import { Navbar } from './components/navbar/navbar';
 import { Footer } from './components/footer/footer';
 import { MobileMenu } from './components/mobile-menu/mobile-menu';
-
-import { Home } from './pages/home/home';
-import { AboutMe } from './pages/about-me/about-me';
-import { Projects } from './pages/Projects/projetcs';
+import { Routing } from './router';
 import './App.css';
+
+
 
 const App = () => {
   return (
     <>
       <Navbar></Navbar>
-      <Projects></Projects>
+      <Routing />
       <Footer></Footer>
       <MobileMenu></MobileMenu>
     </>
